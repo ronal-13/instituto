@@ -33,11 +33,6 @@ const LoginForm = () => {
     <div className="login-container">
       <div className="login-card">
         <div className="login-header">
-          <img 
-            src="https://via.placeholder.com/80x80?text=ICPNA" 
-            alt="ICPNA Logo" 
-            className="logo" 
-          />
           <h1>ICPNA Canvas</h1>
           <p>Accede a tu plataforma educativa</p>
         </div>
