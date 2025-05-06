@@ -1,0 +1,30 @@
+/* Idiomas */
+.gestion-idiomas {
+    padding: 24px;
+    background-color: #f8f9fa;
+  }
+  
+  .gestion-idiomas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .gestion-idiomas-title {
+    color: #004085;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .gestion-idiomas-button {
+    background-color: #007bff;
+    border: none;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .gestion-idiomas-table {
+    background-color: #ffffff;
+    border-radius: 8px;
+  }

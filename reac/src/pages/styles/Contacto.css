@@ -1,0 +1,122 @@
+/* Estilos generales */
+.actividades-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Encabezado con fondo especial */
+  .actividades-header {
+    background-color: #2c3e50; /* Color de fondo del título */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 8px;
+  }
+  
+  .actividades-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .contacto-email {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .contacto-email a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Grid de actividades */
+  .actividades-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  /* Tarjetas de actividad */
+  .actividad-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .actividad-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .actividad-imagen-container {
+    width: 100%;
+    height: 200px; /* Altura fija para imágenes */
+    overflow: hidden;
+  }
+  
+  .actividad-imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease;
+  }
+  
+  .actividad-card:hover .actividad-imagen {
+    transform: scale(1.05);
+  }
+  
+  .actividad-card h3 {
+    padding: 20px;
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  
+  /* Badge de convocatoria */
+  .convocatoria-badge {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  /* Fecha de actividad */
+  .fecha-actividad {
+    text-align: center;
+    color: #7f8c8d;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .actividades-header {
+      padding: 30px 15px;
+    }
+    
+    .actividades-header h1 {
+      font-size: 2rem;
+    }
+    
+    .actividades-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .actividad-imagen-container {
+      height: 180px;
+    }
+  }

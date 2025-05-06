@@ -1,0 +1,31 @@
+/* Estudiantes */
+.contenedor-estudiantes {
+    padding: 24px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .encabezado-estudiantes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .titulo-estudiantes {
+    color: #004085;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .boton-agregar {
+    background: #007bff;
+    border: none;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .tabla-estudiantes {
+    background: #ffffff;
+    border-radius: 8px;
+  }

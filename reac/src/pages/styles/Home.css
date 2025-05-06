@@ -1,0 +1,311 @@
+/* Estilos generales */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 0;
+  }
+  
+  .welcome-section h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: -50px;
+  }
+  
+  .tagline {
+    color: #7f8c8d;
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  /* Sección de modalidades */
+  .modalities-section {
+    margin-top: 3rem;
+    padding: 2rem 0;
+    font-weight: 0;
+  }
+  
+  .modalities-section h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .modalities-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .modality-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 320px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .modality-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .modality-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .modality-card h3 {
+    color: #e74c3c;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .modality-card p {
+    color: #34495e;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .modality-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .modality-button:hover {
+    background-color: #c0392b;
+  }
+
+  /*porque icpna?*/
+  /* Estilos para la sección principal */
+.why-icpna-section {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-header h2 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  position: relative;
+  display: inline-block;
+}
+
+.section-header h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #e74c3c;
+}
+
+/* Contenedor de beneficios */
+.benefits-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tarjetas de beneficios */
+.benefit-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.benefit-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.benefit-icon .icon {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.benefit-card h3 {
+  color: #2c3e50;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+  
+/*librery*/
+/* Estilos generales */
+.library-services {
+  padding: 60px 20px;
+  background-color: #f5f7fa;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tarjetas de servicio */
+.service-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 550px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.service-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+.service-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.service-content {
+  padding: 25px;
+}
+
+.service-content p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+
+.service-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.service-button:hover {
+  background-color: #c0392b;
+}
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .home-container {
+      padding: 1rem;
+    }
+    
+    .modalities-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .modality-card {
+      width: 100%;
+      max-width: 350px;
+      margin-bottom: 1.5rem;
+    }
+    
+    .welcome-section h1 {
+      font-size: 2rem;
+    }
+    
+    .modalities-section h2 {
+      font-size: 1.5rem;
+    }
+
+    /*why?*/
+    .benefits-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .benefit-card {
+      width: 100%;
+      max-width: 350px;
+    }
+    /*librery*/
+    .library-services {
+      padding: 40px 15px;
+    }
+    
+    .service-card {
+      max-width: 100%;
+    }
+    
+    .service-header h2 {
+      font-size: 1.3rem;
+    }
+    
+    .service-content {
+      padding: 20px;
+    }
+    
+    .service-button {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+  }
+
+  

@@ -1,0 +1,103 @@
+/* Estilos generales */
+.examenes-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .examenes-title {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+  }
+  
+  .examenes-intro {
+    color: #7f8c8d;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Grid de exámenes */
+  .examenes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  /* Tarjetas de examen */
+  .examen-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .examen-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .examen-card h2 {
+    color: #e74c3c;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .examen-card p {
+    color: #34495e;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  /* Acciones y botones */
+  .examen-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  
+  .examen-codigo {
+    color: #7f8c8d;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .examen-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .examen-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .examenes-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .examenes-title {
+      font-size: 1.8rem;
+    }
+    
+    .examen-actions {
+      flex-direction: column;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+  }

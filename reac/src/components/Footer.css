@@ -1,0 +1,118 @@
+/* Estilos generales del footer */
+.icpna-footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 40px 0 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Secciones del footer */
+  .footer-section {
+    width: 23%;
+    margin-bottom: 30px;
+  }
+  
+  .footer-title {
+    color: #e74c3c;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links a:hover {
+    color: #e74c3c;
+  }
+  
+  /* Sección de contacto */
+  .contact-section {
+    width: 30%;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .phone-number {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .social-media h4 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #bdc3c7;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #e74c3c;
+  }
+  
+  /* Footer inferior */
+  .footer-bottom {
+    background-color: #1a252f;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 30px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-section {
+      width: 48%;
+    }
+    
+    .contact-section {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .social-icons {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-section {
+      width: 100%;
+    }
+  }
